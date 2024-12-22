@@ -1,0 +1,349 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+/*----------------------------------------------------Main Code--------------------------------*/    
+}
+header
+ {
+    height: 125px;
+    width: 1300px;
+    padding: 15px;
+    background-image: url("pics/bg.jpg");
+ }
+ section
+ {
+    height: 450px;
+
+    width: 1330px;
+    background-color: grey;  
+ }
+ .logo
+ {
+    float: left;
+    padding-left:0px;
+ }
+  .wrapper
+ {
+    height: 700px;
+    width: 1340px;
+ }
+.sec_img
+ {
+    height: 450px;
+    margin-top: 0px;
+    background-image: url("pics/4.jfif");
+ }
+ #ab{
+    margin-left: 180px;
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
+    transition: height 2s,width 2s,transform 2s;
+ }
+ #ab:hover{
+    transform: rotate(360deg);
+
+ }
+ ul{
+    margin: 0px;
+    padding: 0px;
+ }
+ li a{
+    text-decoration: none;
+    color: black;
+}
+ li a:hover{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-decoration: underline;
+    font-size: 27px;
+    background-color: deeppink;
+}
+footer{
+    height: 120px;
+    width: 1330px;
+    background-color: black;
+}
+.abc{
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 40px;
+}
+.abb{
+    color: lightcoral;
+    text-align: center;
+    font-size: 20px;
+}
+ .cc{
+    color: lightcoral;
+    text-align: center;
+    font-size: 20px;
+ }
+ .dd{
+    color: lightcoral;
+    text-align: center;
+    font-size: 20px;
+ }
+.bv{
+    height: 120px;
+    width: 180px;
+    float: left;
+}
+.vb{
+    height: 120px;
+    width: 180px;
+    float: right;
+}
+.ac{
+    border: 1px solid blue;
+    background-image: url("pics/up.jpg");
+    height: 250px;
+    width: 440px;
+    margin-left: -226px;
+    text-decoration: none;
+
+}
+.ca{
+    text-decoration-line: none;
+    border: 1px solid blue;
+    background-image: url("pics/punjab.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+.sc{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/delhi.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+.cs{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/rajasthan.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+.ds{
+    text-decoration: none;
+    border: 1px solid blue;
+    height: 250px;
+    width: 440px;
+    float: left;
+    background-image: url("pics/18.jpg");
+    transition: height 2s, width 2s,transform 2s;
+}
+    .ds:hover{
+                  transform: rotate(360deg);
+               }        
+.sd{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/gujarat.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+.fd{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/telangana.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+    margin: auto;
+}
+.df{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/maharashtra.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+.gf{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-image: url("pics/goa.jpg");
+    height: 250px;
+    width: 440px;
+    float: left;
+}
+ .up{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;
+            float: left;  
+            color: papayawhip;
+            text-decoration: none;
+
+        }
+ .pb{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            float: left;
+            text-decoration: none;
+        }        
+ .dl{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+        }
+ .rt{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+            float: left;
+
+        }        
+ .gt{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+            float: left;
+        }
+ .tg{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+            float: left;
+
+
+        }
+ .goa{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+            float: left;
+
+        }
+ .ma{
+            text-align: center;
+            line-height: 250px;
+            font-size: 40px;
+            font-family: 'Roboto', italic;  
+            color: papayawhip;
+            text-decoration: none;
+            float: left;
+        }                
